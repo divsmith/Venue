@@ -1,0 +1,223 @@
+/**
+* Parker Smith
+* 9/22/12
+* Venue Style
+*/
+
+/********************
+	General Styles
+*********************/
+html, body
+{
+	background-image:url('../img/linen.png');
+	color: #e3e3e3;
+	font-family: helvetica, arial, sans-serif;
+}
+
+header
+{
+	font-size: 75px;
+	margin-top: 20px;
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+header h1
+{
+	margin: auto;
+	padding: 0px;
+	width: 275px;
+	cursor: pointer;
+	position: relative;
+
+	text-shadow: 2px 3px 3px #292929;
+	letter-spacing: 1px;
+
+	color: white;
+	position: relative;
+	
+}
+
+.wrapper
+{
+	width: 640px;
+	margin: auto;
+	text-align: center;
+	position: relative;
+}
+
+/****************
+	Search Box
+****************/
+.search
+{
+	margin: 35px 20px 5px;
+}
+
+.search label
+{
+	margin-top: 5px;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+.search input
+{
+	
+	-moz-transtion:background-color .75s;
+	-webkit-transition:background-color .75s;
+	-moz-transition:background-color .75s;
+	-o-transition:background-color .75s;
+	-ms-transition:background-color .75s;
+	transition:background-color .75s;
+	border: none;
+	font-size: 25px;
+	border-radius: 10px;
+	background-color: #666666;
+	text-indent: 10px;
+	color: #666666;
+}
+
+input:focus
+{
+	outline:none;
+	background-color: #e3e3e3;
+}
+
+
+/*******************
+	Video Styling
+*******************/
+ul
+{
+	list-style: none;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+}
+
+li
+{
+	width: 640px;
+	height: 142px;
+	margin: auto;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	position: relative;
+}
+
+li div
+{
+	/*height: 300px;*/
+
+	/*-webkit-transition: all 1s;*/
+}
+
+li div div
+{
+	-webkit-transition: all 1s, background-color .5s;
+	-moz-transition: all 1s, background-color .5s;
+	-o-transition: all 1s, background-color .5s;
+	-ms-transition: all 1s, background-color .5s;
+	transition: all 1s, background-color .5s;
+}
+
+.back
+{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	-webkit-backface-visibility: hidden;
+	-webkit-transition: opacity 0s;
+	-moz-transition: opacity 0s;
+	-o-transition: opacity 0s;
+	-ms-transition: opacity 0s;
+	transition: opacity 0s;
+	z-index: 0;
+	position: absolute;
+	width: 640px;
+	height: 142px;
+	background-color: gray;
+	visibility: hidden;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	filter: alpha(opacity=0);
+	opacity: 0;
+}
+
+.front
+{
+	position: absolute;
+	width: 640px;
+	height: 142px;
+	z-index: 10;
+	background-color: rgba(255,255,255,.1);
+	text-align: center;
+	font-size: 40px;
+	border-radius: 10px;
+	cursor: pointer;
+	z-index: 10;
+}
+
+.front:hover
+{
+	background-color: rgba(255,255,255,.3);
+}
+
+.front p
+{
+	padding-top: 7px;
+}
+
+.frontClick
+{
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+	-o-transform: rotateY(180deg);
+	-ms-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+	position: absolute;
+	width: 640px;
+	height: 300px;
+	z-index: 0;
+	background-color: rgba(255,255,255,.1);
+	background-color: gray;
+	text-align: center;
+	font-size: 40px;
+	border-radius: 10px;
+	visibility: hidden;
+}
+
+.backClick
+{
+	-webkit-backface-visibility: hidden;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	-o-transform: rotateY(0deg);
+	-ms-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	position: absolute;
+	background-color: gray;
+	width: 640px;
+	height: 300px;
+	z-index: 20;
+}
+
+
+/**************
+	Footer
+***************/
+footer
+{
+	height: 20px;
+	width: 100%;
+	
+	margin-top: 50px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+footer p
+{
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+}
