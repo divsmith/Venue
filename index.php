@@ -60,7 +60,7 @@ EOT;
 			}
 
 			// Add our fully formatted video tag with sources to be output to the browser.
-			$video_id = preg_replace('/[^a-z]+/i', '_', $name);
+			$video_id = preg_replace('/[^a-z0-9]+/i', '_', $name);
 			$front_id = $video_id . '_front';
 			$back_id = $video_id . '_back';
 			$video_video = $video_id . '_video';
