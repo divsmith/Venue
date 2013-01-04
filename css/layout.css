@@ -1,0 +1,42 @@
+html, body { height: 100%; }
+
+footer {
+	padding: 0px;
+	margin: 0px;
+	height: 60px;
+	background-color: #f5f5f5;
+}
+
+footer ul
+{
+	padding-top: 20px;
+}
+
+.wrap {
+	min-height: 100%;
+	height: auto !important;
+	height: 100%;
+	margin: 0 auto -60px;
+}
+
+.push { height: 100px; } /* Just some arbitrary space to add between footer and rest of the content, when they are close */
+
+/* not required for sticky footer; just makes some space for navigation bar */
+.wrap > section {
+	padding-top: 40px;
+}
+
+.hero-unit
+{
+	text-align: center;
+}
+
+.hero-unit h1
+{
+	padding-bottom: 10px;
+}
+
+.well
+{
+	text-align: center;
+}

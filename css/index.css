@@ -1,0 +1,26 @@
+a:hover
+{
+	text-decoration: none;
+}
+
+.movie
+{
+	color: #333333;
+}
+
+.movie:hover
+{
+	color: #0088cc;
+}
+
+.well:hover
+{
+	background-color: #eeeeee;
+}
+
+ul
+{
+	list-style: none;
+	padding: 0px;
+	margin: 0px;
+}

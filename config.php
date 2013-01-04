@@ -5,6 +5,9 @@
 -->
 
 <?php
-	$movie_path = 'movies/';	// Path must be relative.
-	$file_types = array('mp4', 'webm', 'ogg');
+	$config = array(
+		'movie_dir' => 'movies/',
+		'file_types' => array('mp4', 'webm', 'ogg'),
+		'root_URL' => 'http://localhost/projects/venue/'
+	)
 ?>
