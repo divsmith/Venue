@@ -100,5 +100,5 @@ EOT;
 	}
 
 	// Main view.
-	require('index.tmpl.php');
+	require('views/index.view.php');
 ?>
