@@ -52,7 +52,7 @@
 		<footer>
 			<div class="container-fluid">
 						<ul class="inline">
-							<li><p class="muted">Designed and built by <a href="http://parkersmith.us">Parker Smith</a>, 2013</p></li>
+							<li><p>Designed and built by <a href="http://parkersmith.us" class="footer_link">Parker Smith</a>, 2013</p></li>
 						</ul>
 			</div>
 		</footer>
