@@ -23,7 +23,7 @@
 								<div class="nav">
 									<?php if ( isset($search) && $search == TRUE) : ?>
 										<form class="navbar-search pull-left">
-		  									<input type="text" class="search-query" placeholder="Search">
+		  									<input type="text" class="search-query search" placeholder="Search">
 										</form>
 									<?php endif; ?>
 								</div>
@@ -59,6 +59,6 @@
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/bootstrap.min.js"></script>
-		<script type="text/javascript" src="js/layout_custom.js"></script>
+		<script type="text/javascript" src="js/list.js"></script>
 	</body>
 </html>
