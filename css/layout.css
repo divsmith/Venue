@@ -53,3 +53,9 @@ h1, h2, h3, h4, h5, h6 {
 p, div {
     font-family: 'Nobile', Helvetica, Arial, sans-serif;
 }
+
+.container-fluid
+{
+	max-width: 940px;
+	margin: 0px auto;
+}

@@ -3,6 +3,7 @@
 	<head>
 		<title>Venue - Your Movies, Anywhere</title>
 		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 		<link rel="stylesheet" href="css/layout.css">
 
 		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
@@ -17,7 +18,7 @@
 			<section>
 				<div class="navbar navbar-inverse navbar-fixed-top">
 					<div class="navbar-inner">
-						<div class="container">
+						<div class="container-fluid">
 							<a class="brand" href=<?=$config['root_URL']; ?>>Venue</a>
 								<div class="nav">
 									<?php if ( isset($search) && $search == TRUE) : ?>
@@ -35,7 +36,7 @@
 
 			
 			<section class="main_content">
-				<div class="container">
+				<div class="container-fluid">
 					<?php 
 						if ( isset($path) ) 
 						{ 
@@ -49,7 +50,7 @@
 		</div>
 
 		<footer>
-			<div class="container">
+			<div class="container-fluid">
 						<ul class="inline">
 							<li><p class="muted">Copyright &copy; <a href="http://parkersmith.us">Parker Smith</a> 2013</p></li>
 						</ul>
