@@ -9,7 +9,7 @@
 		<script src="http://vjs.zencdn.net/c/video.js"></script>
 
 		<link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
- <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
+		<link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
@@ -51,7 +51,7 @@
 		<footer>
 			<div class="container">
 						<ul class="inline">
-							<li><p class="muted">Copyright &copy; <a href="http://parkersmith.us">Parker Smith</a> 2012</p></li>
+							<li><p class="muted">Copyright &copy; <a href="http://parkersmith.us">Parker Smith</a> 2013</p></li>
 						</ul>
 			</div>
 		</footer>
