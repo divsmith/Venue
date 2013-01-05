@@ -23,7 +23,7 @@
 								<div class="nav">
 									<?php if ( isset($search) && $search == TRUE) : ?>
 										<form class="navbar-search pull-left">
-		  									<input type="text" class="search-query search" placeholder="Search">
+		  									<input type="text" class="search-query" id="search-visible" placeholder="Search">
 										</form>
 									<?php endif; ?>
 								</div>
