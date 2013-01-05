@@ -10,7 +10,7 @@ footer {
 	padding: 0px;
 	margin: 0px;
 	height: 60px;
-	background-color: #269926;
+	background-color: #cccccc;
 }
 
 footer ul
@@ -20,7 +20,7 @@ footer ul
 
 .footer_link
 {
-	color: #006363;
+	color: #0099ff;
 }
 
 
@@ -31,9 +31,8 @@ footer ul
 	margin: 0 auto -60px;
 }
 
-.push { height: 100px; } /* Just some arbitrary space to add between footer and rest of the content, when they are close */
+.push { height: 100px; } 
 
-/* not required for sticky footer; just makes some space for navigation bar */
 .wrap > section {
 	padding-top: 40px;
 }
