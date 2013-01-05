@@ -10,7 +10,7 @@
 
 		require 'config.php';
 		require_once 'File.php';
-		require 'views/layout.php';
+		require 'views/layout.view.php';
 	}
 
 	function get_movies()

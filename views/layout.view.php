@@ -7,6 +7,9 @@
 
 		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
 		<script src="http://vjs.zencdn.net/c/video.js"></script>
+
+		<link href="http://fonts.googleapis.com/css?family=Corben:bold" rel="stylesheet" type="text/css">
+ <link href="http://fonts.googleapis.com/css?family=Nobile" rel="stylesheet" type="text/css">
 	</head>
 
 	<body>
