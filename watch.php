@@ -9,7 +9,8 @@
 	{
 		$movie = $movies[$_GET['id']];
 		$data = array(
-			'movie' => $movie
+			'movie' => $movie,
+			'back' => TRUE
 		);
 		view('watch', $data);
 	}

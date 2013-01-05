@@ -14,6 +14,7 @@
 	</head>
 
 	<body>
+		<a name="top"></a>
 		<div class="wrap">
 			<section>
 				<div class="navbar navbar-inverse navbar-fixed-top">
@@ -21,12 +22,21 @@
 						<div class="container-fluid">
 							<a class="brand" href=<?=$config['root_URL']; ?>>Venue</a>
 								<div class="nav">
-									<?php if ( isset($search) && $search == TRUE) : ?>
+									<?php if ( isset($search) && $search == TRUE ) : ?>
 										<form class="navbar-search pull-left">
 		  									<input type="text" class="search-query" id="search-visible" placeholder="Search">
 										</form>
 									<?php endif; ?>
 								</div>
+								<ul class="nav pull-right">
+									<?php if ( isset($back) && $back == TRUE ) : ?>
+										<li><a href="<?=$config['root_URL']; ?>"><i class="icon-chevron-left icon-white"></i> Back</a></li>
+									<?php endif; ?>
+									<?php if ( isset($top_bottom) && $top_bottom ==  TRUE ) : ?>
+										<li><a href="#top">Top <i class="icon-chevron-up icon-white"></i></a></li>
+										<li><a href="#bottom">Bottom <i class="icon-chevron-down icon-white"></i></a></li>
+									<?php endif; ?>
+								</ul>
 							</a>
 						</div>
 					</div>
@@ -56,6 +66,7 @@
 						</ul>
 			</div>
 		</footer>
+		<a name="bottom"></a>
 
 		<script src="http://code.jquery.com/jquery-latest.js"></script>
 		<script src="js/bootstrap.min.js"></script>
