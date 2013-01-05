@@ -1,6 +1,5 @@
 <link rel="stylesheet" href="css/index.css">
 
-<a name="top"></a>
 <div id="movie_list">
 	<div class="search">
 		<input type="hidden" class="search" id="search-hidden">
@@ -23,4 +22,3 @@
 		<?php endforeach; ?>
 	</ul>
 </div>
-<a name="bottom">
