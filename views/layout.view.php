@@ -21,13 +21,6 @@
 					<div class="navbar-inner">
 						<div class="container-fluid">
 							<a class="brand" href=<?=$config['root_URL']; ?>>Venue</a>
-								<div class="nav">
-									<?php if ( isset($search) && $search == TRUE ) : ?>
-										<form class="navbar-search pull-left">
-		  									<input type="text" class="search-query" id="search-visible" placeholder="Search">
-										</form>
-									<?php endif; ?>
-								</div>
 								<ul class="nav pull-right">
 									<?php if ( isset($back) && $back == TRUE ) : ?>
 										<li><a href="<?=$config['root_URL']; ?>"><i class="icon-chevron-left icon-white"></i> Back</a></li>
@@ -37,7 +30,6 @@
 										<li><a href="#bottom">Bottom <i class="icon-chevron-down icon-white"></i></a></li>
 									<?php endif; ?>
 								</ul>
-							</a>
 						</div>
 					</div>
 				</div>

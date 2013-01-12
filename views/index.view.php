@@ -1,11 +1,14 @@
 <link rel="stylesheet" href="css/index.css">
 
 <div id="movie_list">
-	<div class="search">
-		<input type="hidden" class="search" id="search-hidden">
+	<div>
+		<form class="search">
+			  	<input type="text" class="search-query input-large" id="search-visible" placeholder="Search">
+		</form>
 	</div>
-	<ul class="list">
 
+
+	<ul class="list">
 		<?php $count = 0; ?>
 		<?php foreach ( $movies as $movie) : ?>
 		<li>

@@ -12,7 +12,6 @@
 	// Setup the $data array to pass to the view.
 	$data = array(
 		'movies' => $movies,
-		'search' => TRUE,
 		'top_bottom' => TRUE
 	);
 
