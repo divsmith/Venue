@@ -26,7 +26,7 @@ footer ul
 
 .push { height: 100px; } 
 
-.wrap > section {
+.wrap > .main, .wrap > header {
 	padding-top: 40px;
 }
 

@@ -16,11 +16,12 @@
 	<body>
 		<a name="top"></a>
 		<div class="wrap">
-			<section>
+			<header>
 				<div class="navbar navbar-inverse navbar-fixed-top">
 					<div class="navbar-inner">
 						<div class="container-fluid">
-							<a class="brand" href=<?=$config['root_URL']; ?>>Venue</a>
+							<nav>
+								<a class="brand" href=<?=$config['root_URL']; ?>>Venue</a>
 								<ul class="nav pull-right">
 									<?php if ( isset($back) && $back == TRUE ) : ?>
 										<li><a href="<?=$config['root_URL']; ?>"><i class="icon-chevron-left icon-white"></i> Back</a></li>
@@ -30,14 +31,13 @@
 										<li><a href="#bottom">Bottom <i class="icon-chevron-down icon-white"></i></a></li>
 									<?php endif; ?>
 								</ul>
+							</nav>
 						</div>
 					</div>
 				</div>
-			</section>
+			</header>
 
-
-			
-			<section class="main_content">
+			<div class="main">
 				<div class="container-fluid">
 					<?php 
 						if ( isset($path) ) 
@@ -46,8 +46,8 @@
 						} 
 					?>
 				</div>
-			</section>
-			
+			</div>
+
 			<div class="push"></div>
 		</div>
 
